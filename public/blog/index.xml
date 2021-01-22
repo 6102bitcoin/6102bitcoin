@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Hello Friend</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Hello Friend</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/blog/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BAT out of Hell</title>
+      <link>/blog/bat-out-of-hell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/bat-out-of-hell/</guid>
+      <description>The sirens are screaming and the fires are howling way down in the (bitcoin twitter) valley tonight. An enlightening conversation between Francis Pouliot and Brendan Eich (CEO of Brave.com) has revealed why brave uses its own token (BAT — Basic Attention Token) rather than Bitcoin, and the rationale is frankly insane. Brave is an unnecessary product for users (ublock origin blocks all ads) and simple ‘pay to read’ tools like satoshipay (but using bitcoin) are far superior.</description>
+    </item>
+    
+    <item>
+      <title>Bitcoin Mining Trends</title>
+      <link>/blog/bitcoin-mining-trends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/bitcoin-mining-trends/</guid>
+      <description>Mining companies earn bitcoin from both the block reward and transaction fees. Currently the block reward is 12.5 BTC and the transaction fees per block = ~0.1 BTC. Though there have been times when the block fees almost exceeded block the reward, it has historically been far lower.
+Block Reward Per Block [Source]
+Transaction Fees per Block [Source]
+Going forwards, the issuance of bitcoin decreases (next halving of the block reward is in ~ 1 Year).</description>
+    </item>
+    
+    <item>
+      <title>Get The Fiat Out</title>
+      <link>/blog/get-the-fiat-out/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/get-the-fiat-out/</guid>
+      <description>Going Abroad Going abroad temporarily to a place with a different currency can be disorientating. You may struggle judging prices and clumsily convert back to your &amp;lsquo;home&amp;rsquo; currency.
+Living abroad you adapt and start pricing things in the local currency. You stop thinking in terms of your &amp;lsquo;home&amp;rsquo; currency.
+It&amp;rsquo;s time to make the move to the internet.
+It&amp;rsquo;s time to think in bitcoin.
+Internalise If you always use GPS you will never learn the route.</description>
+    </item>
+    
+    <item>
+      <title>Lightning Network Intro</title>
+      <link>/blog/lightning-network-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/lightning-network-intro/</guid>
+      <description>What is lightning? Instant &amp;amp; cheap bitcoin transactions.
+How can I try lightning? An easy way to try the lightning network. Just visit tippin.me and sign up. Use a bitcoin lightning wallet such as lightning-wallet on android. On iOS there is thin wallet but that is not yet opensource. Follow the instructions in the app you download to create a payment channel and send some satoshis to your tippin.me account.</description>
+    </item>
+    
+    <item>
+      <title>Not Your Keys</title>
+      <link>/blog/not-your-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/not-your-keys/</guid>
+      <description>⚠️ DANGER ⚠️ - Not Your Keys, Not Your Coins Owning bitcoin is knowing a private key which can be used to spend a bitcoin UTXO.
+If any other person knows this private key, they could spend the UTXO.
+For this reason, you must keep your private keys secure, and secret.
+Scams &amp;amp; Frauds Scammers have been attempting to take bitcoin from uneducated users for years. One way to do this is to give an uneducated user a bitcoin wallet for which the scammer knows the private key.</description>
+    </item>
+    
+    <item>
+      <title>Slice The Pie</title>
+      <link>/blog/slice-the-pie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/slice-the-pie/</guid>
+      <description>What even is orange pie?
+This dumb tweet inspired this short article…
+ &amp;ldquo;The carpenter can&amp;rsquo;t run out of inches The stadium can&amp;rsquo;t run out of points The airline can&amp;rsquo;t run out of FF miles And the USA can&amp;rsquo;t run out of dollar&amp;rdquo; - Stephanie Kelton
+ Understanding There is a common belief that the USA can just print as much money as it wants. Ignoring the complex nature in which money is actually created (debt, treasury notes etc) this is true, the USA can print as many dollars as it likes.</description>
+    </item>
+    
+    <item>
+      <title>Surplus Clean Energy Falacy</title>
+      <link>/blog/surplus-clean-energy-falacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/surplus-clean-energy-falacy/</guid>
+      <description>I recently had a long discussion on twitter with StopAndDecrypt about surplus clean energy bitcoin mining. This post explains why surplus clean energy bitcoin mining is a fallacy. Having written this out I have a feeling that S&amp;amp;D and I agree more than we disagree on this.
+The post that started the discussion was the following statement;
+ &amp;ldquo;If we can create an immutable ledger WITHOUT burning so much energy, why wouldn&amp;rsquo;t we seek it out?</description>
+    </item>
+    
+  </channel>
+</rss>

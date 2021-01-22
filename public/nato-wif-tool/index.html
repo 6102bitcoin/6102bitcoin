@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>NATO WIF Tool :: Hello Friend — A simple theme for Hugo</title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="description" content="A Tool to Convert WIF private keys into NATO Words for easier backup.
+// Python code def wiftoNATO(): global NATO_characters, character, wif, NATO i = 0 for x in NATO_characters: if x[0] == character: wif.append(x[0]) NATO.append(x[1]) else: i = i &#43; 1 if i &amp;gt;= len(NATO_characters): NATO.append(&amp;#34;---ERROR---&amp;#34;) wif.append(&amp;#34;---ERROR---&amp;#34;) return NATO def check_NATO(): global NATO_characters, word, wif, NATO i = 0 check = False for x in NATO_characters: if x[1] == word: wif."/>
+<meta name="keywords" content=""/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/nato-wif-tool/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+
+<link rel="stylesheet" href="/style.css">
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/img/apple-touch-icon-144-precomposed.png">
+<link rel="shortcut icon" href="/img/favicon.png">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="NATO WIF Tool"/>
+<meta name="twitter:description" content="A Tool to Convert WIF private keys into NATO Words for easier backup.
+// Python code def wiftoNATO(): global NATO_characters, character, wif, NATO i = 0 for x in NATO_characters: if x[0] == character: wif.append(x[0]) NATO.append(x[1]) else: i = i &#43; 1 if i &gt;= len(NATO_characters): NATO.append(&#34;---ERROR---&#34;) wif.append(&#34;---ERROR---&#34;) return NATO def check_NATO(): global NATO_characters, word, wif, NATO i = 0 check = False for x in NATO_characters: if x[1] == word: wif."/>
+
+
+
+<meta property="og:title" content="NATO WIF Tool" />
+<meta property="og:description" content="A Tool to Convert WIF private keys into NATO Words for easier backup.
+// Python code def wiftoNATO(): global NATO_characters, character, wif, NATO i = 0 for x in NATO_characters: if x[0] == character: wif.append(x[0]) NATO.append(x[1]) else: i = i &#43; 1 if i &gt;= len(NATO_characters): NATO.append(&#34;---ERROR---&#34;) wif.append(&#34;---ERROR---&#34;) return NATO def check_NATO(): global NATO_characters, word, wif, NATO i = 0 check = False for x in NATO_characters: if x[1] == word: wif." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/nato-wif-tool/" />
+<meta property="og:site_name" content="Hello Friend" />
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a href="/" class="logo" style="text-decoration: none;">
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367"/>
+</svg>
+</span>
+    <span class="logo__text">6102bitcoin</span>
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/projects">Projects</a></li>
+        
+      
+      
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/projects">Projects</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  <div class="post">
+    <h2 class="post-title"><a href="/nato-wif-tool/">NATO WIF Tool</a></h2>
+    <div class="post-meta">
+      
+      
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      <p>A <a href="https://github.com/6102bitcoin/bitcoin_tools/blob/master/NATO_wif.py">Tool</a> to Convert WIF private keys into NATO Words for easier backup.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">/</span><span style="color:#f92672">/</span> Python code
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">wiftoNATO</span>():
+    <span style="color:#66d9ef">global</span> NATO_characters, character, wif, NATO
+    i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+    <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> NATO_characters:
+        <span style="color:#66d9ef">if</span> x[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">==</span> character:
+            wif<span style="color:#f92672">.</span>append(x[<span style="color:#ae81ff">0</span>])
+            NATO<span style="color:#f92672">.</span>append(x[<span style="color:#ae81ff">1</span>])
+        <span style="color:#66d9ef">else</span>:
+            i <span style="color:#f92672">=</span> i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+            <span style="color:#66d9ef">if</span> i <span style="color:#f92672">&gt;</span><span style="color:#f92672">=</span> len(NATO_characters):
+                NATO<span style="color:#f92672">.</span>append(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">---ERROR---</span><span style="color:#e6db74">&#34;</span>)
+                wif<span style="color:#f92672">.</span>append(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">---ERROR---</span><span style="color:#e6db74">&#34;</span>)
+    <span style="color:#66d9ef">return</span> NATO
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">check_NATO</span>():
+    <span style="color:#66d9ef">global</span> NATO_characters, word, wif, NATO
+    i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+    check <span style="color:#f92672">=</span> False
+    <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> NATO_characters:
+        <span style="color:#66d9ef">if</span> x[<span style="color:#ae81ff">1</span>] <span style="color:#f92672">==</span> word:
+            wif<span style="color:#f92672">.</span>append(x[<span style="color:#ae81ff">0</span>])
+            NATO<span style="color:#f92672">.</span>append(x[<span style="color:#ae81ff">1</span>])
+            check <span style="color:#f92672">=</span> True
+        <span style="color:#66d9ef">else</span>:
+            i <span style="color:#f92672">=</span> i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+            <span style="color:#66d9ef">if</span> i <span style="color:#f92672">&gt;</span><span style="color:#f92672">=</span> len(NATO_characters):
+                check <span style="color:#f92672">=</span> False
+    <span style="color:#66d9ef">return</span> check
+
+<span style="color:#75715e"># lowercase letters</span>
+a <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">a</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">alfa</span><span style="color:#e6db74">&#39;</span>)
+b <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">b</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">bravo</span><span style="color:#e6db74">&#39;</span>)
+c <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">c</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">charlie</span><span style="color:#e6db74">&#39;</span>)
+d <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">d</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">delta</span><span style="color:#e6db74">&#39;</span>)
+e <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">e</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">echo</span><span style="color:#e6db74">&#39;</span>)
+f <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">f</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">foxtrot</span><span style="color:#e6db74">&#39;</span>)
+g <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">g</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">golf</span><span style="color:#e6db74">&#39;</span>)
+h <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">h</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">hotel</span><span style="color:#e6db74">&#39;</span>)
+i <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">i</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">india</span><span style="color:#e6db74">&#39;</span>)
+j <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">j</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">juliett</span><span style="color:#e6db74">&#39;</span>)
+k <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">k</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">kilo</span><span style="color:#e6db74">&#39;</span>)
+l <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">l</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">lima</span><span style="color:#e6db74">&#39;</span>)
+m <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">m</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">mike</span><span style="color:#e6db74">&#39;</span>)
+n <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">n</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">november</span><span style="color:#e6db74">&#39;</span>)
+o <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">o</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">oscar</span><span style="color:#e6db74">&#39;</span>)
+p <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">p</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">papa</span><span style="color:#e6db74">&#39;</span>)
+q <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">q</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">quebec</span><span style="color:#e6db74">&#39;</span>)
+r <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">r</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">romeo</span><span style="color:#e6db74">&#39;</span>)
+s <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">s</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">sierra</span><span style="color:#e6db74">&#39;</span>)
+t <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">t</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">tango</span><span style="color:#e6db74">&#39;</span>)
+u <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">u</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">uniform</span><span style="color:#e6db74">&#39;</span>)
+v <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">v</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">victor</span><span style="color:#e6db74">&#39;</span>)
+w <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">w</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">whiskey</span><span style="color:#e6db74">&#39;</span>)
+x <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">x</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">x-ray</span><span style="color:#e6db74">&#39;</span>)
+y <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">y</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">yankee</span><span style="color:#e6db74">&#39;</span>)
+z <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">z</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">zulu</span><span style="color:#e6db74">&#39;</span>)
+<span style="color:#75715e"># UPPERCASE letters</span>
+A <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">A</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">ALFA</span><span style="color:#e6db74">&#39;</span>)
+B <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">B</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">BRAVO</span><span style="color:#e6db74">&#39;</span>)
+C <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">C</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">CHARLIE</span><span style="color:#e6db74">&#39;</span>)
+D <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">D</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">DELTA</span><span style="color:#e6db74">&#39;</span>)
+E <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">E</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">ECHO</span><span style="color:#e6db74">&#39;</span>)
+F <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">F</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">FOXTROT</span><span style="color:#e6db74">&#39;</span>)
+G <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">G</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">GOLF</span><span style="color:#e6db74">&#39;</span>)
+H <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">H</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">HOTEL</span><span style="color:#e6db74">&#39;</span>)
+I <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">I</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">INDIA</span><span style="color:#e6db74">&#39;</span>)
+J <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">J</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">JULIETT</span><span style="color:#e6db74">&#39;</span>)
+K <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">K</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">KILO</span><span style="color:#e6db74">&#39;</span>)
+L <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">L</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">LIMA</span><span style="color:#e6db74">&#39;</span>)
+M <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">M</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">MIKE</span><span style="color:#e6db74">&#39;</span>)
+N <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">N</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">NOVEMBER</span><span style="color:#e6db74">&#39;</span>)
+O <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">O</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">OSCAR</span><span style="color:#e6db74">&#39;</span>)
+P <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">P</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">PAPA</span><span style="color:#e6db74">&#39;</span>)
+Q <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Q</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">QUEBEC</span><span style="color:#e6db74">&#39;</span>)
+R <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">R</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">ROMEO</span><span style="color:#e6db74">&#39;</span>)
+S <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">S</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">SIERRA</span><span style="color:#e6db74">&#39;</span>)
+T <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">T</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">TANGO</span><span style="color:#e6db74">&#39;</span>)
+U <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">U</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">UNIFORM</span><span style="color:#e6db74">&#39;</span>)
+V <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">V</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">VICTOR</span><span style="color:#e6db74">&#39;</span>)
+W <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">W</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">WHISKEY</span><span style="color:#e6db74">&#39;</span>)
+X <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">X</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">X-RAY</span><span style="color:#e6db74">&#39;</span>)
+Y <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Y</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">YANKEE</span><span style="color:#e6db74">&#39;</span>)
+Z <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Z</span><span style="color:#e6db74">&#39;</span>, <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">ZULU</span><span style="color:#e6db74">&#39;</span>)
+<span style="color:#75715e"># Numbers</span>
+n0 <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">0</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">ZERO</span><span style="color:#e6db74">&#39;</span>)
+n1 <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">1</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">ONE</span><span style="color:#e6db74">&#39;</span>)
+n2 <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">2</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">TWO</span><span style="color:#e6db74">&#39;</span>)
+n3 <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">3</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">THREE</span><span style="color:#e6db74">&#39;</span>)
+n4 <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">4</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">FOUR</span><span style="color:#e6db74">&#39;</span>)
+n5 <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">5</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">FIVE</span><span style="color:#e6db74">&#39;</span>)
+n6 <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">6</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">SIX</span><span style="color:#e6db74">&#39;</span>)
+n7 <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">7</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">SEVEN</span><span style="color:#e6db74">&#39;</span>)
+n8 <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">8</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">EIGHT</span><span style="color:#e6db74">&#39;</span>)
+n9 <span style="color:#f92672">=</span> (<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">9</span><span style="color:#e6db74">&#39;</span>,<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">NINE</span><span style="color:#e6db74">&#39;</span>)
+
+NATO_characters <span style="color:#f92672">=</span> [a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z,A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,n0,n1,n2,n3,n4,n5,n6,n7,n8,n9]
+
+mode <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+count <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+wif <span style="color:#f92672">=</span> []
+NATO <span style="color:#f92672">=</span> []
+
+<span style="color:#75715e"># SELECT MODE</span>
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">SELECT MODE:</span><span style="color:#e6db74">&#34;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">A | (Enter WIF)</span><span style="color:#e6db74">&#34;</span>)
+<span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">B | (Enter NATO)</span><span style="color:#e6db74">&#34;</span>)
+mode <span style="color:#f92672">=</span> input(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Select Mode (Type A or B): </span><span style="color:#e6db74">&#34;</span>)
+
+<span style="color:#66d9ef">if</span> mode <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">A</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">or</span> mode <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">a</span><span style="color:#e6db74">&#34;</span>:
+    wif_long <span style="color:#f92672">=</span> input(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Paste WIF: </span><span style="color:#e6db74">&#39;</span>)
+    <span style="color:#66d9ef">for</span> character <span style="color:#f92672">in</span> wif_long:
+        wiftoNATO()
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Store This Somewhere Safe!</span><span style="color:#e6db74">&#34;</span>)
+    <span style="color:#66d9ef">for</span> x <span style="color:#f92672">in</span> wif:
+        <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Word </span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">+</span> str(count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">: </span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">+</span> NATO[count])
+        count <span style="color:#f92672">=</span> count <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+
+<span style="color:#66d9ef">if</span> mode <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">B</span><span style="color:#e6db74">&#34;</span> <span style="color:#f92672">or</span> mode<span style="color:#f92672">==</span><span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">b</span><span style="color:#e6db74">&#34;</span>:
+    exit <span style="color:#f92672">=</span> False
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Please Note: Input is CASE sensitive (Numbers in CAPS)</span><span style="color:#e6db74">&#34;</span>)
+    <span style="color:#66d9ef">while</span> exit <span style="color:#f92672">==</span> False:
+        NATO_next <span style="color:#f92672">=</span> input(<span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">Enter next word (X to end): </span><span style="color:#e6db74">&#39;</span>)
+        <span style="color:#66d9ef">if</span> NATO_next <span style="color:#f92672">==</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">X</span><span style="color:#e6db74">&#34;</span>:
+            exit <span style="color:#f92672">=</span> True
+            wif <span style="color:#f92672">=</span> <span style="color:#e6db74"></span><span style="color:#e6db74">&#39;</span><span style="color:#e6db74">&#39;</span><span style="color:#f92672">.</span>join(wif)
+            <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">Store This Somewhere Safe!</span><span style="color:#e6db74">&#34;</span>)
+            <span style="color:#66d9ef">print</span>(str(wif))
+        <span style="color:#66d9ef">else</span>:
+            word <span style="color:#f92672">=</span> NATO_next
+            <span style="color:#66d9ef">if</span> check_NATO() <span style="color:#f92672">==</span> False:
+                <span style="color:#66d9ef">print</span>(<span style="color:#e6db74"></span><span style="color:#e6db74">&#34;</span><span style="color:#e6db74">WORD NOT RECOGNISED</span><span style="color:#e6db74">&#34;</span>)
+</code></pre></div>
+    </div>
+    
+    
+
+    
+      
+    
+    
+    </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>

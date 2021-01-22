@@ -1,0 +1,49 @@
+---
+title: "Digital Privacy"
+---
+
+- Use Linux
+- Avoid Google 
+- Use burner phones
+- Use ad blockers
+- Use a VPN / Tor as required
+- Consider what you say before you say it 
+- Don't click links from random DM's 
+- Don't answer random phone calls
+- Communicate on appropriate channels (Keybase)
+- Don't use social media with your real name
+- Don't have an always on microphone in your house
+- Use cash where possible
+- Don't upload photos 
+- Set strong passwords
+- Use 2FA (not SMS)
+- Cover / Remove webcam
+- Block / Remove microphone
+- Don't use public wifi
+- Don't share personal information
+- Use burner email addresses
+- Use firefox
+- Adjust settings to reduce data leaking
+- Automatically wipe history & cookies
+- If it's old and it's well tested (PGP) use it
+- If it's new and it's popular be cautious
+- Regularly wipe & reinstall OS
+- Put your phone in a drawer (Off doesn't mean off)
+- Destroy all "Smart home devices"
+- Don't plug in random USB's 
+- Physically destroy HHD before disposing 
+- Re books; Physical > Digital  
+- Don't use SMS or Phone where possible
+- Assume everything is logged
+- Don't install random software
+- Don't install random dependencies
+- Check signing keys before importing
+- Check signatures before installing
+- Run unknown software in a VM
+- Run critical software on isolated machine 
+- Don't break the law (this attracts attention)
+- Be skeptical 
+- Learn to code
+- Make backups
+- Check backups
+- Ask questions

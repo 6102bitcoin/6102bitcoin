@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hello Friend</title>
+    <link>/</link>
+    <description>Recent content on Hello Friend</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/blog/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I&amp;rsquo;m a pseudonymous bitcoin user and educator doing what I can to accelerate bitcoin understanding. This website tracks my thoughts &amp;amp; projects</description>
+    </item>
+    
+    <item>
+      <title>BAT out of Hell</title>
+      <link>/blog/bat-out-of-hell/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/bat-out-of-hell/</guid>
+      <description>The sirens are screaming and the fires are howling way down in the (bitcoin twitter) valley tonight. An enlightening conversation between Francis Pouliot and Brendan Eich (CEO of Brave.com) has revealed why brave uses its own token (BAT — Basic Attention Token) rather than Bitcoin, and the rationale is frankly insane. Brave is an unnecessary product for users (ublock origin blocks all ads) and simple ‘pay to read’ tools like satoshipay (but using bitcoin) are far superior.</description>
+    </item>
+    
+    <item>
+      <title>Bitcoin intro</title>
+      <link>/bitcoin-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bitcoin-guide/</guid>
+      <description>I am often asked for a recommended &amp;lsquo;good bitcoin setup&amp;rsquo;. This is what I currently recommend:
+Core Setup  Find old laptop &amp;amp; Buy 1TB HHD Install Linux (wipe old data) Set strong laptop password Install wasabi wallet Install bitcoincoreorg &amp;amp; start sync Read FAQ&amp;rsquo;s &amp;amp; Check Backups Buy BTC -&amp;gt; send to wasabi Mix on wasabi  + Mobile &amp;amp; More Mixing Download Samourai Wallet Install Dojo Install Whirlpool Pair everything Read FAQ &amp;amp; Check backups Buy BTC -&amp;gt; send to whirlpool Mix &amp;amp; Leave mixing Spend from Samourai Wallet  + Hardware Wallet Buy from manufacturer Ship to non-home address Pay with mixed coins Setup hardware wallet within wasabi Check backup Send mixed UTXO&amp;rsquo;s 1 by 1 to new wasabi hardware wallet (randomise fee/time) with txCast Hide hardware wallet  </description>
+    </item>
+    
+    <item>
+      <title>Bitcoin intro</title>
+      <link>/bitcoin-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bitcoin-intro/</guid>
+      <description>bitcoin-intro.com is a simple guide which newcomers can work through to develop their understanding of bitcoin whilst discovering how easy it is to use.</description>
+    </item>
+    
+    <item>
+      <title>Bitcoin Mining Trends</title>
+      <link>/blog/bitcoin-mining-trends/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/bitcoin-mining-trends/</guid>
+      <description>Mining companies earn bitcoin from both the block reward and transaction fees. Currently the block reward is 12.5 BTC and the transaction fees per block = ~0.1 BTC. Though there have been times when the block fees almost exceeded block the reward, it has historically been far lower.
+Block Reward Per Block [Source]
+Transaction Fees per Block [Source]
+Going forwards, the issuance of bitcoin decreases (next halving of the block reward is in ~ 1 Year).</description>
+    </item>
+    
+    <item>
+      <title>Bitcoin Only</title>
+      <link>/bitcoin-only/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bitcoin-only/</guid>
+      <description>It all started with this tweet.
+I agreed completely, I am passionate about bitcoin, not scam altcoins which waste time, money and provide an additional attack surface for any product / service which dabbles with them.
+I thought, wouldn&amp;rsquo;t it be great to have a website which lists only bitcoin only projects!
+That day I built bitcoin-only.com.
+Since then the project has grown significantly and now tracks a wide range of bitcoin tools, products, events and services.</description>
+    </item>
+    
+    <item>
+      <title>Get The Fiat Out</title>
+      <link>/blog/get-the-fiat-out/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/get-the-fiat-out/</guid>
+      <description>Going Abroad Going abroad temporarily to a place with a different currency can be disorientating. You may struggle judging prices and clumsily convert back to your &amp;lsquo;home&amp;rsquo; currency.
+Living abroad you adapt and start pricing things in the local currency. You stop thinking in terms of your &amp;lsquo;home&amp;rsquo; currency.
+It&amp;rsquo;s time to make the move to the internet.
+It&amp;rsquo;s time to think in bitcoin.
+Internalise If you always use GPS you will never learn the route.</description>
+    </item>
+    
+    <item>
+      <title>Instax Bitcoin QR Codes</title>
+      <link>/instax-bitcoin-qr-codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/instax-bitcoin-qr-codes/</guid>
+      <description>I evaluated the usefulness of the Instax mini 9 for making cheap, quick QR prints. It works well but would work seamlessly with a small update to Samourai wallet to enable full screen QR codes. Samourai dev&amp;rsquo;s have since agreed to add this feature.
+Use this method as a secondary backup only - heat will degrade the prints rendering them useless after a fire
+The Problem Sometimes, when using Bitcoin, you may desire a physical printout.</description>
+    </item>
+    
+    <item>
+      <title>Lightning Network Intro</title>
+      <link>/blog/lightning-network-intro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/lightning-network-intro/</guid>
+      <description>What is lightning? Instant &amp;amp; cheap bitcoin transactions.
+How can I try lightning? An easy way to try the lightning network. Just visit tippin.me and sign up. Use a bitcoin lightning wallet such as lightning-wallet on android. On iOS there is thin wallet but that is not yet opensource. Follow the instructions in the app you download to create a payment channel and send some satoshis to your tippin.me account.</description>
+    </item>
+    
+    <item>
+      <title>NATO WIF Tool</title>
+      <link>/nato-wif-tool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/nato-wif-tool/</guid>
+      <description>A Tool to Convert WIF private keys into NATO Words for easier backup.
+// Python code def wiftoNATO(): global NATO_characters, character, wif, NATO i = 0 for x in NATO_characters: if x[0] == character: wif.append(x[0]) NATO.append(x[1]) else: i = i + 1 if i &amp;gt;= len(NATO_characters): NATO.append(&amp;#34;---ERROR---&amp;#34;) wif.append(&amp;#34;---ERROR---&amp;#34;) return NATO def check_NATO(): global NATO_characters, word, wif, NATO i = 0 check = False for x in NATO_characters: if x[1] == word: wif.</description>
+    </item>
+    
+    <item>
+      <title>Not Your Keys</title>
+      <link>/blog/not-your-keys/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/not-your-keys/</guid>
+      <description>⚠️ DANGER ⚠️ - Not Your Keys, Not Your Coins Owning bitcoin is knowing a private key which can be used to spend a bitcoin UTXO.
+If any other person knows this private key, they could spend the UTXO.
+For this reason, you must keep your private keys secure, and secret.
+Scams &amp;amp; Frauds Scammers have been attempting to take bitcoin from uneducated users for years. One way to do this is to give an uneducated user a bitcoin wallet for which the scammer knows the private key.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>Contact Me    Twitter @6102bitcoin     Email click    Websites    Project Name Description     Bitcoin-Only.com Resources. Read More   Bitcoin-Intro.com Learning. Read More   txCast.org Break Timing Analysis. Read Mode   BitcoinFixes.org Problems Bitcoin Solves   Corporate Cash Bitcoin &amp;raquo; ZuckBucks   6102bitcoin.com My Blog    CoinJoin    Project Name Project Description     The Bounty Thread The origin of CoinJoin   The Proposals Summarising each Implementation   Fee Comparison Comparing Coordinator Fees   Research Repo Archiving CoinJoin Work   CoinJoin Introduction CoinJoin Explained   Wasabi Wallet FAQ for Wasabi (Local   Whirlpool FAQ for Whirlpool (Local)    FAQ&amp;rsquo;s    Project Name Project Description     Bitcoin Guide A &amp;lsquo;good setup&amp;rsquo;   Hodl Privacy Avoid Privacy Pitfalls   Bitcoin Seed Detailed Seed / Backup Explanation   OpenDime How to use an OpenDime    Miscelaneous    Project Name Project Description     Instax Bitcoin QR codes Dummy   QR Sketch App Dummy   Shamirs Secret QR Dummy   Sats Icon Dummy   NATO WIF Tool Convert wif to NATO Words    </description>
+    </item>
+    
+    <item>
+      <title>QR Sketch App</title>
+      <link>/qr-sketch-app/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/qr-sketch-app/</guid>
+      <description>Motivation It is very time consuming to hand sketch a qr code, though as we have previously shown it is possible, if you have approximately 1 hour to kill. I believe that there are occasions when it would be useful to be able to hand record a QR (more to come on this) - but unless it can be made an order of magnitude quicker (6 mins) it will never be used.</description>
+    </item>
+    
+    <item>
+      <title>Sats Icon</title>
+      <link>/sats-icon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/sats-icon/</guid>
+      <description>A free to use satoshi symbol / icon on GitHub</description>
+    </item>
+    
+    <item>
+      <title>Shamirs Secret QR</title>
+      <link>/shamirs-secret-qr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/shamirs-secret-qr/</guid>
+      <description>Initial Idea I expect that there is a chance that hand drawing QR codes might be an important tool for the bitcoiner of the future.
+Shamir&amp;rsquo;s secret sharing will be an incredibly important tool in the next few years. Splitting your private key using sss means that you can have strong guarantees of salvage when you need to retrieve your funds. Furthermore, by nesting sss schemes you can add further redundancy.</description>
+    </item>
+    
+    <item>
+      <title>Slice The Pie</title>
+      <link>/blog/slice-the-pie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/slice-the-pie/</guid>
+      <description>What even is orange pie?
+This dumb tweet inspired this short article…
+ &amp;ldquo;The carpenter can&amp;rsquo;t run out of inches The stadium can&amp;rsquo;t run out of points The airline can&amp;rsquo;t run out of FF miles And the USA can&amp;rsquo;t run out of dollar&amp;rdquo; - Stephanie Kelton
+ Understanding There is a common belief that the USA can just print as much money as it wants. Ignoring the complex nature in which money is actually created (debt, treasury notes etc) this is true, the USA can print as many dollars as it likes.</description>
+    </item>
+    
+    <item>
+      <title>Surplus Clean Energy Falacy</title>
+      <link>/blog/surplus-clean-energy-falacy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/surplus-clean-energy-falacy/</guid>
+      <description>I recently had a long discussion on twitter with StopAndDecrypt about surplus clean energy bitcoin mining. This post explains why surplus clean energy bitcoin mining is a fallacy. Having written this out I have a feeling that S&amp;amp;D and I agree more than we disagree on this.
+The post that started the discussion was the following statement;
+ &amp;ldquo;If we can create an immutable ledger WITHOUT burning so much energy, why wouldn&amp;rsquo;t we seek it out?</description>
+    </item>
+    
+    <item>
+      <title>txCast</title>
+      <link>/txcast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/txcast/</guid>
+      <description>Randomised Bitcoin transaction broadcasting to break timing analysis (configured for testnet, further testing needed).
+Motivation CoinJoin tools enable Bitcoin users to disassociate the past &amp;amp; future history of their bitcoin UTXOs (through a process called mixing). Users move their mixed coins to a secondary wallet for more secure storage (e.g. a Cold Wallet / Hardware wallet) and are potentially vulnerable to a timing attack whereby blockchain analysts cluster UTXO&amp;rsquo;s using timing information (if users move multiple mixed coins in a short time period).</description>
+    </item>
+    
+    <item>
+      <title>Wasabi FAQ</title>
+      <link>/faq-wasabi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/faq-wasabi/</guid>
+      <description>Note: Many of these Q&amp;amp;A have been copied from real users, see footer for acknowledgements.
+Index  Pre-Install Install Pre-Mix Mixing Post-Mix Meta Acknowledgements  Pre-Install Who is behind Wasabi? The Company that is developing Wasabi is zkSNACKs LTD (twitter | website)
+Members as of 2019.05.08:
+   Name Twitter Position     Gergely Hajdú @gergely_hajdu Co-CEO &amp;amp; Co-Founder   Bálint Harmat @bharmat84 Co-CEO &amp;amp; Co-Founder   Adam Ficsór @nopara73 CTO &amp;amp; Developer &amp;amp; Co-Founder   Lucas Ontivero @lontivero Developer &amp;amp; Co-Founder   Dan Walmsley (@danwalmsley) Developer   Dávid Molnár (@molnardavid84) Developer    Install How do I install Wasabi?</description>
+    </item>
+    
+    <item>
+      <title>Whirlpool FAQ</title>
+      <link>/faq-whirlpool/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/faq-whirlpool/</guid>
+      <description>Note: Many of these Q&amp;amp;A have been copied from real users, see footer for acknowledgements.
+Index  Overview Pre-Install  Who is behind Whirlpool? What is Whirlpool?   Install  How do I install Whirlpool? How do I connect Whirlpool to my own full node? Paring Configurations Forgotten Passphrase? Do I need to run Tor?   Deposit  How to deposit Bitcoin in my Samourai Wallet isn&amp;rsquo;t showing up in Whirlpool!</description>
+    </item>
+    
+  </channel>
+</rss>
