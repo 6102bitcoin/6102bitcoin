@@ -99,7 +99,7 @@ Bitlicense Exchanges
 | Cash App (Square)|              |          |
 | BitPay          |               |          |
 | Coinsource      |               |          |
-| Bitstamp USA    |               |          |
+| Bitstamp        | 1             | (1**)     |
 | Sofi            |               |          |
 | Genesis Global  |               |          |
 | RobinHood Crypto|               |          |
@@ -117,5 +117,12 @@ Other Companies:
 
 | Exchange        | Issue Count   | Sources  |
 | --------        | -----------   | -------  |
-| BlockFi         | 1             | [1a](https://twitter.com/matt_odell/status/1234514628115341313), [1b](https://tweetstamp.org/1234531935038341120)   |
+| BlockFi         | 1             | [(1a)](https://twitter.com/matt_odell/status/1234514628115341313), [(1b)](https://tweetstamp.org/1234531935038341120)   |
 | BitVavo         | 1             | [(1)](https://web.archive.org/web/20200907203529if_/https://www.reddit.com/r/Bitcoin/comments/i8ye6x/exchange_account_closed_because_of_risk_profile/) |
+| BottlePay       | 2             | [(1)](https://twitter.com/Marty_P_B/status/1366737347887456260]), (2*) |
+| InvestVoyager   | 1             | [(1)](https://twitter.com/sundaywar/status/1366854774864322560?s=20) | 
+| Nexo            | 1             | (1*) |
+
+
+*  Some evidence provided privately to me (6102bitcoin)
+** Strong evidence provided privately to me (6102bitcoin)
