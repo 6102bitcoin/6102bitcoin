@@ -35,7 +35,49 @@ As such, taint is not an intrinsic property of the coin (unlike, for example, th
 
 ## A growing trend.
 
-Prior to late 2019 I am not aware of there having been any reported issues selling / exchanging bitcoins which have been mixed. Since late 2019 there have been a growing number of exchanges contacting users following their use of CoinJoin tools pre/post withdrawal.
+Prior to late 2019 I am not aware of there having been any reported issues selling / exchanging bitcoins which have been mixed. Since late 2019 there have been a growing number of exchanges contacting users following their use of CoinJoin tools pre/post withdrawal. These are tracked below:
+
+## Which companies flag users who CoinJoin?
+
+Bitlicense Exchanges
+
+| Exchange        | Issue Count   | Sources  |
+| --------        | :---------:   | :-----:  |
+| Circle          |               |          |
+| Paxos           | 1             | [(1)](https://twitter.com/RonaldMcHodled/status/1222172084610027523)        |
+| CoinBase        |               |          |
+| BitFlyer        |               |          |
+| Cash App (Square)|              |          |
+| BitPay          |               |          |
+| Coinsource      |               |          |
+| Bitstamp        | 1             | (1**)     |
+| Sofi            |               |          |
+| Genesis Global  |               |          |
+| RobinHood Crypto|               |          |
+
+CIOS Exchanges:
+
+| Exchange        | Issue Count   | Sources  |
+| --------        | -----------   | -------  |
+| Binance         | 1             | [(1)](https://twitter.com/bittlecat/status/1207621591820951552)         |
+| Paxful          | 1             | [(1)](https://web.archive.org/web/20200128234015/https://old.reddit.com/r/WasabiWallet/comments/czext2/paxful_account_was_frozen_due_to_coinjoin/)         |
+| Bitfinex        | 1             | [(1)](https://web.archive.org/web/20200128233910/https://old.reddit.com/r/WasabiWallet/comments/beqj8r/bitfinex_lock_account/)       |
+
+
+Other Companies:
+
+| Exchange        | Issue Count   | Sources  |
+| --------        | -----------   | -------  |
+| BlockFi         | 1             | [(1a)](https://twitter.com/matt_odell/status/1234514628115341313), [(1b)](https://tweetstamp.org/1234531935038341120)   |
+| BitVavo         | 1             | [(1)](https://web.archive.org/web/20200907203529if_/https://www.reddit.com/r/Bitcoin/comments/i8ye6x/exchange_account_closed_because_of_risk_profile/) |
+| BottlePay       | 2             | [(1)](https://twitter.com/Marty_P_B/status/1366737347887456260]), (2*) |
+| InvestVoyager   | 1             | [(1)](https://twitter.com/sundaywar/status/1366854774864322560?s=20) | 
+| Nexo            | 1             | (1*) |
+| Bitwala         | 1             | [(1)](https://twitter.com/RiccardoMasutti/status/1375507165151076353) |
+| Bitmex          | 1             | [(1)](https://twitter.com/kristapsk/status/1374336620158140419) |
+
+`*`  Some evidence provided privately to me (6102bitcoin)
+`**` Strong evidence provided privately to me (6102bitcoin)
 
 ## Possible Options for Users
 
@@ -85,44 +127,3 @@ If they start doing this I recommend immediately withdrawing everything (if you 
 If that's not an option you'll need to find out how many hops are required before they assume they are no longer your coins.
 
 **Obviously it's better to leave now than wait to see whether this happens**
-
-## Which companies flag users who CoinJoin?
-
-Bitlicense Exchanges
-
-| Exchange        | Issue Count   | Sources  |
-| --------        | :---------:   | :-----:  |
-| Circle          |               |          |
-| Paxos           | 1             | [(1)](https://twitter.com/RonaldMcHodled/status/1222172084610027523)        |
-| CoinBase        |               |          |
-| BitFlyer        |               |          |
-| Cash App (Square)|              |          |
-| BitPay          |               |          |
-| Coinsource      |               |          |
-| Bitstamp        | 1             | (1**)     |
-| Sofi            |               |          |
-| Genesis Global  |               |          |
-| RobinHood Crypto|               |          |
-
-CIOS Exchanges:
-
-| Exchange        | Issue Count   | Sources  |
-| --------        | -----------   | -------  |
-| Binance         | 1             | [(1)](https://twitter.com/bittlecat/status/1207621591820951552)         |
-| Paxful          | 1             | [(1)](https://web.archive.org/web/20200128234015/https://old.reddit.com/r/WasabiWallet/comments/czext2/paxful_account_was_frozen_due_to_coinjoin/)         |
-| Bitfinex        | 1             | [(1)](https://web.archive.org/web/20200128233910/https://old.reddit.com/r/WasabiWallet/comments/beqj8r/bitfinex_lock_account/)       |
-
-
-Other Companies:
-
-| Exchange        | Issue Count   | Sources  |
-| --------        | -----------   | -------  |
-| BlockFi         | 1             | [(1a)](https://twitter.com/matt_odell/status/1234514628115341313), [(1b)](https://tweetstamp.org/1234531935038341120)   |
-| BitVavo         | 1             | [(1)](https://web.archive.org/web/20200907203529if_/https://www.reddit.com/r/Bitcoin/comments/i8ye6x/exchange_account_closed_because_of_risk_profile/) |
-| BottlePay       | 2             | [(1)](https://twitter.com/Marty_P_B/status/1366737347887456260]), (2*) |
-| InvestVoyager   | 1             | [(1)](https://twitter.com/sundaywar/status/1366854774864322560?s=20) | 
-| Nexo            | 1             | (1*) |
-
-
-*  Some evidence provided privately to me (6102bitcoin)
-** Strong evidence provided privately to me (6102bitcoin)
