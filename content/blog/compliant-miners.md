@@ -2,9 +2,9 @@
 title: "Compliant Miners"
 ---
 
-I shall attempt to briefly explain why I think that the game theory of mining will result in regular `NC` blocks being mined.
+I shall attempt to briefly explain why I think that the game theory of mining will result in regular non-compliant blocks being mined.
 
-My hope is that this can put to rest the concerns that a minority `C` group of miners will force the network into a `C` system. 
+My hope is that this can put to rest the concerns that a minority compliant group of miners will force the network into a compliant system. 
 
 If you believe that I have made an error please [get in touch](https://twitter.com/6102bitcoin) and explain where you think I went wrong.
 
