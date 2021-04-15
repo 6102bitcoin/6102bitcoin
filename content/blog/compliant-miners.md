@@ -12,8 +12,8 @@ If you believe that I have made an error please [get in touch](https://twitter.c
 
 | Block Type          | Definition                                                            |
 | ---                 | ---                                                                   |
-| `compliant` (C)       | A block which **does not** contain any blacklisted transactions       |
-| `non-compliant` (NC)  | A block which **does** contain blacklisted transactions               |
+| `compliant`       | A block which **does not** contain any blacklisted transactions       |
+| `non-compliant`  | A block which **does** contain blacklisted transactions               |
 
 | Miner             | Definition                                                     |
 | ---               | ---                                                            |
@@ -21,10 +21,10 @@ If you believe that I have made an error please [get in touch](https://twitter.c
 | rational          | Maximize expected return  | 
 
 ## The Setup:
-Consider that there is a long chain of `compliant` (C) blocks mined.
+Consider that there is a long chain of `compliant` blocks mined.
 
 ## The `non-compliant` Block:
-A miner produces a `non-compliant` (NC) block for reasons that I will explain below.
+A miner produces a `non-compliant` block for reasons that I will explain below.
 
 ## The Response
 By definition the `compliant` miners ignore this block, and mine on the last `compliant` block. 
@@ -43,7 +43,7 @@ That rules out option 1.
 
 Next the miner can decide whether to mine a `compliant` or a `non-compliant` block.
 
-The chance of the (minority hashpower) `compliant` miner catching up and then overtaking a 2 block lead is very small. This means that the orphan risk of producing a `non-`compliant` block and getting orphaned is very low, and the increased profit from mining `non-compliant` transactions will likely outweigh the risks of mining a `non-compliant` block.
+The chance of the (minority hashpower) `compliant` miner catching up and then overtaking a 2 block lead is very small. This means that the orphan risk of producing a `non-compliant` block and getting orphaned is very low, and the increased profit from mining `non-compliant` transactions will likely outweigh the risks of mining a `non-compliant` block.
 
 But there is another key benefit from mining a `non-compliant` block - the `compliant` miners will not be able to mine upon it, and therefore those miners will effectively not be mining.
 As such, until the next difficulty adjustment the profitability of the miners mining on the `non-compliant` chain will be greater in proportion to the fraction of the `compliant` hashpower.
