@@ -65,4 +65,10 @@ For the users attempting to make these transactions the fee that they are willin
 
 Eventually expected loss due to the orphan risk (when mining a NC block) will be less than the fees on offer, at this point even a rational miner will choose to mine a `NC` block.
 
+
+# What if Censors mine on any block
+
+Then the risk of having a NC block orphaned is not even furtger reduced. 
+
+
 ---
