@@ -31,6 +31,8 @@ By definition the `C` miners ignore this block, and mine on the last `C` block.
 They continue working on a stale chain at elevated risk of producing a block that is not built upon.
 In order to do this they must operate at a loss.
 
+Mining on a stale chain with a minority hashrate is an easy way to go broke.
+
 The rational miners have three options:
 1. Mine a `C` block on the last `C` block
 2. Mine a `C` block on the chaintip (a `NC` block)
