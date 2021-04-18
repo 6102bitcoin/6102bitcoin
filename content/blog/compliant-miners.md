@@ -68,7 +68,7 @@ Eventually expected loss due to the orphan risk (when mining a NC block) will be
 
 # What if Censors mine on any block
 
-Then the risk of having a NC block orphaned is not even furtger reduced. 
+Then the risk of having a NC block orphaned is now even further reduced. 
 
 
 ---
