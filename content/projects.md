@@ -62,3 +62,4 @@ title: "Projects"
 | [BIP47 Tracking](/bip47) | Wallets with PayNym Support |
 | [Bitcoin VR Meetup](/bitcoin-vr-meetup) | Meetup in Cyberspace |
 | [Build Samourai APK](/build-samourai-apk) | Avoid Play Store |
+| [xpub collision warning](/xpub-collision-warning) | Avoid xpubs collision |
